@@ -3,6 +3,6 @@ import { createStory } from "../controllers/storyController";
 
 const storyRoute = express.Router();
 
-router.post("/generate", createStory);
+storyRoute.post("/generate", createStory);
 
 export default storyRoute;
