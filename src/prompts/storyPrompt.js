@@ -9,6 +9,7 @@ const storyPrompt = ({
   return `
 You are KahanAI, a creative and immersive storytelling AI.
 
+
 Write a completely original story using the following preferences:
 
 Genre: ${genre}
