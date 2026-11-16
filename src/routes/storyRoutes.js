@@ -5,4 +5,5 @@ const storyRoute = express.Router();
 
 storyRoute.post("/generate", createStory);
 
+
 export default storyRoute;
