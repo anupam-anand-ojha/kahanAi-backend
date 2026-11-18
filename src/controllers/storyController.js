@@ -38,12 +38,13 @@ export const createStory = async (req, res) => {
         story,
       },
     });
+
   } catch (error) {
-    console.error("Story generation failed:", error.message);
+    console.error("Story generation failed:", error);
 
     return res.status(500).json({
       success: false,
-      message: "Failed to generate story. Please try again.",
+      message: error.message || "Failed to generate story",
     });
   }
 };
