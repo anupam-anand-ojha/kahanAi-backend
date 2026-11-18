@@ -1,5 +1,5 @@
 import express from "express";
-import { createStory } from "../controllers/storyController";
+import { createStory } from "../controllers/storyController.js";
 
 const storyRoute = express.Router();
 
