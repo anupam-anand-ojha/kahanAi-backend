@@ -6,6 +6,7 @@ const storyPrompt = ({
   language,
   mood,
 }) => {
+  
   return `
 You are KahanAI, a creative and immersive storytelling AI.
 
