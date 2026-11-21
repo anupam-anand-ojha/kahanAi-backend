@@ -1,37 +1,26 @@
 
-const storyPrompt = ({
-  genre,
-  theme,
-  characters,
-  language,
-  mood,
-}) => {
-  
+const storyPrompt = ({ genre, theme, characters, language, mood }) => {
   return `
-You are KahanAI, a creative and immersive storytelling AI.
+You are KahanAI, an immersive storytelling AI.
 
-
-Write a completely original story using the following preferences:
+Write an original, engaging story based on:
 
 Genre: ${genre}
-Theme or Setting: ${theme}
+Theme: ${theme}
 Characters: ${characters || "Create memorable characters"}
 Mood: ${mood || "Engaging and immersive"}
 Language: ${language || "Hindi"}
 
-STORY REQUIREMENTS:
-1. Create a compelling and original title.
-2. Start with a strong hook that captures the reader's attention.
-3. Develop believable characters with clear motivations.
-4. Build an engaging plot with conflict, suspense, and emotional depth.
-5. Keep the story consistent with the selected genre and theme.
-6. Use natural dialogue and vivid descriptions.
-7. Give the story a meaningful and satisfying conclusion.
-8. Avoid repetitive paragraphs and generic storytelling.
-9. Write the complete story in the requested language.
-10. Return only the title and story, without explaining these instructions.
+Requirements:
+- Create a compelling title and opening hook.
+- Develop believable characters and natural dialogue.
+- Build an engaging plot with conflict, suspense, and emotions.
+- Use vivid descriptions and maintain consistency.
+- End with a meaningful, satisfying conclusion.
+- Avoid clichés and unnecessary repetition.
+- Write entirely in the requested language.
 
-Make the reader feel as if they are experiencing the story firsthand.
+Return only the story title and complete story.
 `;
 };
 
