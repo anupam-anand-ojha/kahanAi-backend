@@ -20,6 +20,7 @@ Requirements:
 - Avoid clichés and unnecessary repetition.
 - Write entirely in the requested language.
 
+
 Return only the story title and complete story.
 `;
 };
