@@ -22,4 +22,5 @@ const generateStory = async (prompt) => {
   return response.text;
 };
 
+
 export default generateStory;
